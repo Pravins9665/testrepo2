@@ -1,0 +1,43 @@
+
+Git Push command
+-------------------
+
+- Create an account on gitHub.com
+- Create one public remote repository
+- Create a local reository in harddrive
+- Open that local reository folder
+- Add files in folder that you want to push to remote repository
+- Right click anywhere, click on Git GUI here
+- Click on rescan & then stage changed
+- Click yes on pop-up message 
+- Write some message in initial commit message
+- Now click on commit, it will give message at left corner as 'creates commit----'
+- If it throws an error about identity then,
+------------------------------------------
+- Go to the local repository (folder)
+- Right click anywhere, & click on Git bash here
+- Git bash will open which look like command prompt
+- you have to write two commands for identity error are as below
+----------------------------------------
+git config --global user.email "write your email that you have used for github account"
+then press enter
+---------------------------------------
+git config --global user.name "write your username of github account"
+then press enter
+---------------------------------------
+then close the git bash & retry the commit command 
+if same errror occurs then open git bash & try a command as
+-----------
+git config --list
+press enter & check the username & email is correct or not.
+---------------------------------------
+- Now click on PUSH
+- It will nwvigate to new push tab
+- you have to copy your URL of remote repository from browser then paste at arbitory location
+- check the first two boxex only
+- click on PUSH
+- It will ask for sign in github account
+- Click on sign in with brower, click on authenticate & put the password & sign in. 
+- Go back to git GUI & it will be successful PUSH.
+------------------
+
